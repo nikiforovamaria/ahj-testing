@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Credit Card Validator</title>
+</head>
+<body>
+  <h1 class="title">Validate a credit card number</h1>
+  <div class="cards">
+    <div class="cards__icon icon__visa"></div>
+    <div class="cards__icon icon__mastercard"></div>
+    <div class="cards__icon icon__americanexp"></div>
+    <div class="cards__icon icon__discover"></div>
+    <div class="cards__icon icon__jcb"></div>
+    <div class="cards__icon icon__dinersclub"></div>
+    <div class="cards__icon icon__mir"></div>
+  </div>
+  <form class="validate-form">
+    <label for="validate-form__input" class="validate-from__title">Credit Card Number:</label>
+    <input type="number" id="validate-form__input" placeholder="Enter your card here">
+    <button class="validate-form__button">Validate</button>
+  </form>
+  <div class="validate-form__message"></div>
+  <button class="reset-button">Reset</button>
+</body>
+</html>

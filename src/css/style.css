@@ -1,0 +1,156 @@
+body {
+  background: #999;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  font-family: 'open sans';
+}
+
+.title {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+
+.cards {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin: 10px auto;
+}
+
+.cards__icon {
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  background-position: center;
+  width: 48px;
+  height: 30px;
+  margin: 2px;
+}
+
+.validate-form {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.validate-from__title {
+  color: #fff;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.validate-form__input {
+  width: 250px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.validate-form__button {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  background-color: rgb(73, 139, 47);
+  border: 1px solid rgb(73, 139, 47);
+  border-radius: 5px;
+  width: 100px;
+  box-sizing: border-box;
+  padding: 5px; 
+  margin-left: 10px;   
+  margin-top: 5px;
+}
+
+.validate-form__button:hover {
+  background-color: rgb(99, 179, 67);
+  border: 1px solid rgb(99, 179, 67);
+}
+
+.icon__active {
+  opacity: 1;
+  border: solid 2px green;
+}
+
+.icon__inactive {
+  opacity: 0.3;
+  background-color: black;
+}
+
+.valid {
+  background-color: rgb(36, 148, 36);
+}
+
+.invalid {
+  background-color: rgb(206, 51, 51);
+}
+
+.validate-form__message {
+  font-size: 12px;
+}
+
+.message_valid {
+  color: rgb(36, 148, 36);
+}
+
+.message_invalid {
+  color: rgb(206, 51, 51);
+}
+
+.reset-button {
+  color: #999;
+  font-weight: 700;
+  background-color: rgb(65, 73, 62);
+  border: 1px solid rgb(65, 73, 62);
+  border-radius: 5px;
+  width: 100px;
+  box-sizing: border-box;
+  padding: 5px; 
+  margin-top: 50px;
+}
+
+.reset-button:hover {
+  color: #fff;
+  background-color: rgb(74, 90, 67);
+  border: 1px solid rgb(74, 90, 67);
+}
+
+/* Icons */
+
+.icon__visa {
+  background: url("../img/visa_curved.png") no-repeat;
+  background-size: contain;
+}
+
+.icon__mastercard {
+  background: url("../img/mastercard_curved.png") no-repeat;
+  background-size: contain;
+}
+
+.icon__americanexp {
+  background: url("../img/american_express_curved.png") no-repeat;
+  background-size: contain;
+}
+
+.icon__discover {
+  background: url("../img/discover_curved.png") no-repeat;
+  background-size: contain;
+}
+
+.icon__jcb {
+  background: url("../img/jcb.png") no-repeat;
+  background-size: contain;
+}
+
+.icon__dinersclub {
+  background: url("../img/dinersclub.jpg") no-repeat;
+  background-size: contain;
+}
+
+.icon__mir {
+  background: url("../img/mirnps.jpg") no-repeat;
+  background-size: contain;
+}
